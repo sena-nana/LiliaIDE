@@ -33,7 +33,7 @@ describe("基础路由", () => {
 
     expect(screen.getAllByRole("link", { name: "设置" })).toHaveLength(1);
     expect(
-      screen.getByRole("link", { name: APP_SHELL_COPY.statusTitle }),
+      screen.getByRole("link", { name: APP_SHELL_COPY.statusLabel }),
     ).toHaveClass("sb-conn--ok");
   });
 
